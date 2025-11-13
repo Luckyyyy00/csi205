@@ -1,4 +1,4 @@
-import meImage from '../assets/imgs/me.png';
+import meImage from './src/assets/imgs/me.png';
 
 const Home = () => {
     return (
