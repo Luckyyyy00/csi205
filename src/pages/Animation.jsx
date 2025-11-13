@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import basketball from '/src/assets/imgs/basketball.png';
-import football from '/src/assets/imgs/football.png';
-import volleyball from '/src/assets/imgs/volleyball.png';
-import human from '/src/assets/imgs/me.png';
-import cartoon from '/src/assets/imgs/cartoon.png';
-import logo from '/src/assets/imgs/logo.png';
-import woodPlanks from '/src/assets/imgs/wood-planks.png';
+import basketball from '../assets/imgs/basketball.png';
+import football from '../assets/imgs/football.png';
+import volleyball from '../assets/imgs/volleyball.png';
+import human from '../assets/imgs/me.png';
+import cartoon from '../assets/imgs/cartoon.png';
+import logo from '../assets/imgs/logo.png';
+import woodPlanks from '../assets/imgs/wood-planks.png';
 
 const Animation = () => {
   const [running, setRunning] = useState(false);
@@ -122,7 +122,7 @@ const Animation = () => {
         <div 
           style={{
             border: '1px solid black',
-            backgroundImage: `url('src/assets/imgs/wood-planks.png')`,
+            backgroundImage: `url('${woodPlanks}')`,
             backgroundSize: 'cover',
             width: `${fieldWidth}px`,
             height: `${fieldHeight}px`,

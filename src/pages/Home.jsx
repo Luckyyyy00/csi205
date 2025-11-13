@@ -1,3 +1,4 @@
+import meImage from '../assets/imgs/me.png';
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                 >
                     <img
                         className="w-100 h-100 object-fit-cover"
-                        src="./src/assets/stdempimg.gif"
+                        src={meImage}
                         alt="Picture"
                     />
                 </div>
