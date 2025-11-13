@@ -21,7 +21,7 @@ const Login = ({ setToken, setRole }) => {
                 />
                 <Form.Label htmlFor="password">Password</Form.Label>
                 <Form.Control
-                    type="text"
+                    type="password"
                     id="password"
                     placeholder='password'
                     ref={passRef}
